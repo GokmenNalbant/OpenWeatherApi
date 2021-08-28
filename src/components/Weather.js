@@ -13,11 +13,11 @@ const Weather = () => {
     });
     const [icon, setIcon] = useState("");
     const [loading, setLoading] = useState(true);
-
+	const apiKey = "";
     const context = useContext(WeatherContext);
     
     useEffect(() => {
-        axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${context.city}&appid=0733735d958e7a73760c5045e34976f0&units=metric&cnt=7`)
+        axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${context.city}&appid=${apiKey}&units=metric&cnt=7`)
     .then((res) => {
         setLoading(true);
         setWeather({
