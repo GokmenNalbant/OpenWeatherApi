@@ -1,0 +1,20 @@
+.inputContainer {
+    background-color: blueviolet;
+    padding: 1rem;
+    border: 3px solid #333;
+    border-radius: 10px;
+    margin-bottom: 5rem;
+}
+
+.inputContainer h3 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.inputContainer select {
+    width: 100%;
+    border: 1px solid #333;
+    background-color: burlywood;
+    font-size: large;
+    
+}

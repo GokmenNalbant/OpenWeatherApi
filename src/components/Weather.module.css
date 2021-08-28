@@ -1,0 +1,17 @@
+.weatherContainer {
+    border: 2px solid #333;
+    border-radius: 5px;
+    width: 40%;
+    margin: 0 auto;
+    background-color: cadetblue;
+}
+.weatherContainer p {
+    font-weight: 700;
+}
+.weatherContainer p i {
+    margin: 1rem;
+}
+
+.weatherContainer p span {
+    margin: 1.2rem;
+}
